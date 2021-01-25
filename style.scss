@@ -1,0 +1,34 @@
+/*STYLE GUIDE*/
+$pink: hsl(322, 100%, 66%);
+$light-pink: hsl(321, 100%, 78%);
+$Light-Red: hsl(0, 100%, 63%);
+$Very-Dark-Cyan: hsl(192, 100%, 9%);
+$Very-Pale-Blue: hsl(207, 100%, 98%);
+
+/* TYPOGRAPHY*/
+@font-face{
+ font-family: 'bold';
+ src: url('../font/poppins/Poppins-Bold.ttf');
+}
+
+@font-face{
+ font-family: 'sans-400';
+ src: url('../font/opensans/OpenSans-Regular.ttf');
+}
+
+
+@font-face{
+ font-family: 'sans-600';
+ src: url('../font/opensans/OpenSans-SemiBold.ttf');
+}
+
+
+@font-face{
+ font-family: 'sans-700';
+ src: url('../font/opensans/OpenSans-Bold.ttf');
+}
+
+
+
+@import "global";
+@import "header";

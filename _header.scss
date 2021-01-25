@@ -1,0 +1,318 @@
+#header{
+ width: 90%;
+ max-width: 100%;
+ margin: 0 auto;
+}
+
+#header #navbar{
+ margin-top: 2rem;
+ display: flex;
+ flex-direction:row;
+ justify-content: space-between;
+}
+#header #navbar #button-header{
+ border: 1px solid rgb(197, 113, 127);
+ background-color:white;
+ color:rgb(197, 113, 127);
+ border-radius: 25px;
+ width: 8rem;
+}
+
+/*CONTAINER PART*/
+.container{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ width: 80%;
+ margin: 0 auto;
+ max-width: 100%;
+ margin-top: 10rem;
+}
+.c-base{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+#container-h1{
+ font-family: 'bold';
+ font-size: 2rem;
+ font-weight: 900;
+ margin-bottom: 1rem;
+}
+
+.c-base p{
+ text-align: center;
+ font-size: .9rem;
+ font-family: 'sans-400';
+ margin-bottom: 2rem;
+}
+
+.c-base button{
+ padding: 1rem;
+ background-color: hsl(322, 100%, 66%);
+ color:white;
+ border-radius: 25px;
+ border:none;
+ width: 50%;
+ box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.5);
+ margin-bottom: 8rem;
+}
+
+
+.picture{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 90%;
+}
+
+
+.picture img{
+ width: 80%;
+ max-width: 100%;
+}
+
+
+.information{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ max-width: 100%;
+ margin-top: 8rem;
+} 
+
+.information .info1,
+.information .info2{
+ display: flex;
+ flex : 1 1 20rem;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+
+.information img{
+ width: 5%;
+ max-width: 100%;
+}
+
+.information .info1 h1,
+.information .info2 h1{
+ font-size: 3.8rem;
+ font-family: 'bold';
+}
+
+.information .info1 p,
+.information .info2 p{
+ color: rgb(167, 156, 156);
+ font-size: 0.7rem;
+ font-family: 'bold';
+}
+
+
+/*TOGETHER PART*/
+.together,
+.Flowing,
+.user{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items:center;
+ width: 85%;
+ margin-top: 20rem;
+ align-items: center;
+ margin:10rem auto 10rem auto;
+ flex-wrap: wrap;
+}
+
+
+
+.together .box2,
+.together .box1,
+.flow1,
+.flow2,
+.user1,
+.user2{
+ display: flex;
+ flex: 1 1 20rem;
+ // width: 100%;
+}
+
+.together .box2 img,
+.flow1 img,
+.user2 img,
+.images{
+ width: 80%;
+ max-width: 100%;
+}
+
+
+.together .box1,
+.flow2,
+.user1{
+ display: flex;
+ flex-direction: column;
+ font-family: 'bold'; 
+}
+
+
+.together .box1 h2,
+.flow2 h2,
+.user1 h2{
+ margin-bottom: 1.5rem;
+}
+
+.together .box1 p,
+.flow2 p,
+.user1 p{
+ font-size: 0.8rem;
+ font-family: 'sans-600';
+}
+
+.ready{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+.ready h1{
+ margin: 1rem 0rem;
+ font-family: 'bold'; 
+}
+
+.ready button{
+ padding: 1rem;
+ background-color: hsl(322, 100%, 66%);
+ color:white;
+ border-radius: 25px;
+ border:none;
+ box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.5);
+}
+
+.footer{
+ margin-top: 10rem;
+ width: 100%;
+ max-width: 100%;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ background-color:$Very-Dark-Cyan;
+ // align-items: center;
+ flex-wrap: wrap;
+ padding: 0rem 2rem;
+ // background: url('../huddle-landing-page-with-curved-sections-master/images/bg-footer-top-desktop.svg');
+ // background-repeat: no-repeat;
+ // background-size: cover;
+}
+
+
+
+
+.footer1,
+.footer2{
+ display: flex;
+ flex: 1 1 20rem;
+ flex-direction: column;
+ color:white;
+ margin-top: 2rem;
+}
+
+
+
+.email,
+.phone{
+ display: flex;
+ flex-direction: row;
+ margin-top: 1.2rem;
+ 
+}
+
+.image-paragraph p{
+ font-family: 'bold';
+ margin-top: 2rem;
+}
+
+// .footer1 .image{
+//  width: 30%;
+// }
+
+// .footer1 img{
+//  width: 20%;
+//  max-width: 100%;
+// }
+
+
+.footer2,
+.phone,
+.email{
+ font-family: 'bold';
+}
+.footer2 h2{
+ font-size: 1.5rem;
+}
+
+.footer2 p{
+ font-size: 0.8rem;
+ margin-top: 1rem;
+ margin-bottom: 1rem;
+}
+
+
+.social i{
+ font-size: 1.5rem;
+ margin: 3rem 0rem 1rem 1rem;
+}
+
+.footer2 button{
+ padding: 0.5rem;
+ background-color: hsl(322, 100%, 66%);
+ color:white;
+ border:none;
+ width: 24%;
+ height: 20%;
+ box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.5);
+}
+
+
+button{
+ cursor: pointer;
+}
+
+.footer2 form input{
+ margin-right: 2rem;
+ padding: 0.5rem;
+}
+
+
+
+@media all and (max-width: 794px){
+ .information .info1,
+.information .info2{
+ margin: 3rem 0rem;
+}
+
+
+}
+
+@media all and (max-width: 663px){
+ .newsletter{
+  margin-top: 10rem;
+ }
+}
+
+@media all and (max-width: 748px){
+ .images{
+  margin: 2rem 0rem;
+ }
+}
+
+@media all and (max-width: 432px){
+ #navbar img{
+  width: 10rem;
+ }
+}
